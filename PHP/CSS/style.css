@@ -1,0 +1,209 @@
+body, html {
+	font-family: 'Lemonada', cursive;
+	margin: 0;
+	padding: 0px;
+	font-size: 20px;
+}
+header {
+	display: block;
+	width: 100%;
+}
+.banner
+{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 400px;
+	width: 100%;
+	display: block;
+}
+.banner1
+{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 300px;
+	width: 100%;
+	display: block;
+}	
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 10px;
+	overflow: hidden;
+	background-color: #000000;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: red;
+	text-align: center;
+	padding: 15px 18px;
+	text-decoration: none;
+}
+li.selected a { color: white; }
+li a:hover {background-color: Turquoise;}
+figure {
+	padding: 0.5em;
+	margin: 0 1em 0.5em 1em;
+	float: left;
+	border: 1px solid black;
+}
+figcaption {
+	font-size: 90%;
+	text-align:center;
+}
+p {
+	margin: 1.2em;
+	line-height: 1.2em;
+	letter-spacing: 0px;
+}
+audio {
+	padding: 0.5em;
+	margin: 0 1em 0.5em 1em;
+	border: 1px solid black;
+	background: grey;
+}
+footer {
+	float: bottom;
+	background-color: #000000;
+	color: red;
+	text-align: center;
+	font-size: 12px;
+}
+hr {
+	margin: 3em;
+	border: 1px dotted #27318b;
+	clear:  both;
+}
+.fa-linkedin {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-github{
+    background: #55ACEE;
+    color: black;
+}
+.fa {
+  padding: 3px;
+  font-size: 16px;
+  width: 16px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.post-title {
+    font-weight: bold;
+    font-size: 200%;
+    padding: 9px;
+    background: #ccc;
+}
+.titlesmall {
+    font-weight: bold;
+    padding: 9px;
+    background: #ccc;
+}
+.news {background-color: black;
+		color: white;}
+.news h2 {
+	margin: 0.5em 0.7em;
+	font-size: 1.5em;
+	color: #27318b;
+	background-color: red;
+	padding: 5px;
+}
+.news hr {
+	margin: 1em;
+	border: 10px dash #27318b;
+	clear: both;
+}
+.news time {
+	font-size: 60%;
+	font-style: italic;
+}
+.im {
+	height: 250px;
+	width: 20%;
+	padding: 0.5em;
+	margin: 0 1em 0.5em 1em;
+	float: left;
+	border: 2px solid white;
+}
+.imlarge {
+	height: 350px;
+	width: 35%;
+	padding: 0.5em;
+	margin: 0 1em 0.5em 1em;
+	float: center;
+	border: 2px solid white;
+}
+.news a {color: green;
+}
+.blue {color: blue;
+}
+.description {
+	font-weight: bold;
+	margin: 0.8em 1em 1.5em 1em;
+}
+
+.thumb {
+	padding: 0.5em;
+	width: 90%
+}
+
+#gallery gthumb {
+	padding: 0.5em;
+	margin: 0 1em 0.5em 1em;
+	float: left;
+	width: 22%;
+	border: 2px solid white;
+}
+
+#gallery figcaption{
+	font-size: 80%;
+	text-align: center;
+	color: white;
+}
+.about {background-color: black;
+		color: white;
+		float: left;
+		width: 100%;}
+.about h2 {
+	margin: 0.5em 0.7em;
+	font-size: 1.5em;
+	color: #27318b;
+	background-color: white;
+	padding: 5px;
+}
+.about hr {
+	margin: 1em;
+	border: 10px dash #27318b;
+	clear: both;
+}
+article {
+		width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+}
+.aim {
+	height: 250px;
+	width: 20%;
+	height: 90%;
+	padding: 0.5em;
+	float: right;
+}
+.mas{
+	padding: 0.5em;
+	margin: 0 1em 0.5em 1em;
+	float: left;
+	width: 22%;
+	border: 2px solid white;
+}
